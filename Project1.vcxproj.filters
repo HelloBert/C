@@ -18,5 +18,8 @@
     <ClCompile Include="kk.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="do_while循环.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
