@@ -45,6 +45,49 @@ int main()
 	cout << (int)& arr[0] << endl;
 
 	//数组名是一个常量，不可以进行赋值操作
+
+	//1.创建5只小猪体重的数组，找出最大值
+
+	int arr_num[5] = { 200, 300, 400 ,500, 700 };
+	int max = 0;
+	
+	for (int i = 0; i < 5; i++) {
+		if (arr_num[i] > max) {
+			max = arr_num[i];
+		}
+	
+	}
+	cout << max << endl;
+
+
+	//数组元素首尾互换
+	int arr_number[5] = { 3, 3, 5, 6, 1 };
+	for (int i = 0; i < 5; i++) {
+		cout << arr_number[i] << endl;;
+	}
+	int start = 0;	//其实元素下标
+	int end = sizeof(arr_number) / sizeof(arr_number[0]) - 1;
+	
+	for (int i = 0; i<5; i++)
+	{
+		int temp = arr_number[start];
+		arr_number[start] = arr_number[end];
+		arr_number[end] = temp;
+		start++;
+		end--;
+		if (start>end) {
+			break;
+		}
+	}
+	for (int i = 0; i < 5; i++) {
+		cout << arr_number[i] << endl;
+	}
+
+
+
+
+
+
 	system("pause");
 	return 0;
 }
