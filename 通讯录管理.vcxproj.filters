@@ -18,5 +18,35 @@
     <ClCompile Include="通讯录管理系统.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="全局区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="栈区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="堆区.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="引用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="引用做函数参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数默认参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="占位参数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="函数重载.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="学生类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
