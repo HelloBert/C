@@ -48,5 +48,28 @@
     <ClCompile Include="学生类.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类的权限控制.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="用类设计立方体.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="点和圆的关系.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
